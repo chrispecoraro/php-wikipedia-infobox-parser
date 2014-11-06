@@ -1,1 +1,1 @@
-A Laravel command to fetch and parse infofox contents
+A Laravel command to fetch and parse infobox contents
