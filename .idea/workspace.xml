@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afdfecb8-5b18-4997-9263-498583245440" name="Default" comment="Initial command outputs a CSV with &quot; escapes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/commands/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/app/commands/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/packages/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/app/config/packages/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/controllers/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/app/controllers/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/app/database/migrations/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/app/database/seeds/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/public/packages/.gitkeep" afterPath="$PROJECT_DIR$/infoboxparser/public/packages/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/public/favicon.ico" afterPath="$PROJECT_DIR$/infoboxparser/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/.gitattributes" afterPath="$PROJECT_DIR$/infoboxparser/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/meta/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/infoboxparser/app/storage/views/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/public/.htaccess" afterPath="$PROJECT_DIR$/infoboxparser/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/infoboxparser/app/controllers/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/infoboxparser/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/infoboxparser/app/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/infoboxparser/app/tests/ExampleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/commands/GetInfoBox.php" afterPath="$PROJECT_DIR$/infoboxparser/app/commands/GetInfoBox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/infoboxparser/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/tests/TestCase.php" afterPath="$PROJECT_DIR$/infoboxparser/app/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/models/User.php" afterPath="$PROJECT_DIR$/infoboxparser/app/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/app.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/local/app.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/local/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/start/artisan.php" afterPath="$PROJECT_DIR$/infoboxparser/app/start/artisan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/artisan" afterPath="$PROJECT_DIR$/infoboxparser/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/auth.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/infoboxparser/bootstrap/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/cache.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/testing/cache.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/testing/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/compile.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/compile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/composer.json" afterPath="$PROJECT_DIR$/infoboxparser/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/database.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/local/database.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/local/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/filters.php" afterPath="$PROJECT_DIR$/infoboxparser/app/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/start/global.php" afterPath="$PROJECT_DIR$/infoboxparser/app/start/global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/views/hello.php" afterPath="$PROJECT_DIR$/infoboxparser/app/views/hello.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/public/index.php" afterPath="$PROJECT_DIR$/infoboxparser/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/start/local.php" afterPath="$PROJECT_DIR$/infoboxparser/app/start/local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/mail.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/lang/en/pagination.php" afterPath="$PROJECT_DIR$/infoboxparser/app/lang/en/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/bootstrap/paths.php" afterPath="$PROJECT_DIR$/infoboxparser/bootstrap/paths.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/phpunit.xml" afterPath="$PROJECT_DIR$/infoboxparser/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/database/production.sqlite" afterPath="$PROJECT_DIR$/infoboxparser/app/database/production.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/queue.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/readme.md" afterPath="$PROJECT_DIR$/infoboxparser/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/views/emails/auth/reminder.blade.php" afterPath="$PROJECT_DIR$/infoboxparser/app/views/emails/auth/reminder.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/lang/en/reminders.php" afterPath="$PROJECT_DIR$/infoboxparser/app/lang/en/reminders.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/remote.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/remote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/public/robots.txt" afterPath="$PROJECT_DIR$/infoboxparser/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/routes.php" afterPath="$PROJECT_DIR$/infoboxparser/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/server.php" afterPath="$PROJECT_DIR$/infoboxparser/server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/services.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/session.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/testing/session.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/testing/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/bootstrap/start.php" afterPath="$PROJECT_DIR$/infoboxparser/bootstrap/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/lang/en/validation.php" afterPath="$PROJECT_DIR$/infoboxparser/app/lang/en/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/view.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoboxparser/app/config/workbench.php" afterPath="$PROJECT_DIR$/infoboxparser/app/config/workbench.php" />
+    </list>
+    <ignored path="php-wikipedia-infobox-parser.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="php-wikipedia-infobox-parser" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GetInfoBoxSpec.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/GetInfoBoxSpec.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32676348" vertical-offset="0" max-vertical-offset="964">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Christopher Pecoraro" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1200" />
+    <option name="height" value="1896" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoboxparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoboxparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoboxparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoboxparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-wikipedia-infobox-parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infoboxparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.settingsdialog.project.vagrant" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="start.php&#9;FILE&#9;file:///home/chris/myboxes/wikipedia-infobox/php-wikipedia-infobox-parser/infoboxparser/bootstrap/start.php" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afdfecb8-5b18-4997-9263-498583245440" name="Default" comment="" />
+      <created>1415227333289</created>
+      <option name="number" value="Default" />
+      <updated>1415227333289</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1200" height="1896" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32619774" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37512743" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5785814" sideWeight="0.308214" order="3" side_tool="true" content_ui="tabs" x="431" y="433" width="1109" height="744" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47087118" sideWeight="0.52239585" order="12" side_tool="false" content_ui="tabs" x="437" y="1182" width="1121" height="571" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33191034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43719935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10911966" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.5654704" sideWeight="0.691786" order="4" side_tool="true" content_ui="tabs" x="338" y="1267" width="1282" height="550" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34820563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32619774" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37512743" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34820563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5785814" sideWeight="0.308214" order="3" side_tool="true" content_ui="tabs" x="431" y="433" width="1109" height="744" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47087118" sideWeight="0.52239585" order="12" side_tool="false" content_ui="tabs" x="437" y="1182" width="1121" height="571" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33191034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43719935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10911966" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.5654704" sideWeight="0.691786" order="4" side_tool="true" content_ui="tabs" x="338" y="1267" width="1282" height="550" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Initial command outputs a CSV with &quot; escapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial command outputs a CSV with &quot; escapes" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/infoboxparser/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="989">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoboxparser/bootstrap/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86720866" vertical-offset="465" max-vertical-offset="2450">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1415227290059" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoboxparser/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11382114" vertical-offset="0" max-vertical-offset="7000">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415227290059" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoboxparser/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34146342" vertical-offset="0" max-vertical-offset="1845">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoboxparser/app/commands/GetInfoBox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115226336" vertical-offset="0" max-vertical-offset="5215">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1415237479190" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" The console command name. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" The console command description. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" Create a new command instance. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" Execute the console command. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" @param $response ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" @param $response ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" Get the console command arguments. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" Get the console command options. ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder=" @return string ..." />
+            <marker date="1415237479190" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/GetInfoBoxSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32676348" vertical-offset="0" max-vertical-offset="964">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
