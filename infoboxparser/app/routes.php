@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/infobox/{pagename}',function($pagename){
+	return Infobox::getInfobox($pagename);
+});
