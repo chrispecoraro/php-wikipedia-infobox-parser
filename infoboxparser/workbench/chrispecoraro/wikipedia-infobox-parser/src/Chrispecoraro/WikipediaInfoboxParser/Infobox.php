@@ -79,16 +79,16 @@ class Infobox
                     echo json_encode($returnArray);
                 } else {
                     if (count($infobox) > 1) {
-                        Log::warning('more than one infobox found');
+                        \Log::warning('more than one infobox found');
                     } else //$infofox is < 1
                     {
-                        Log::warning('Infobox not found');
+                        \Log::warning('Infobox not found');
                     }
                 }
 
             }
         } else {
-            Log::warning('request not in json format');
+            \Log::warning('request not in json format');
         }
 
     }
