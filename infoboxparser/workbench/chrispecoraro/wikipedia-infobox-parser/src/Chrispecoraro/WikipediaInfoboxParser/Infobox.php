@@ -56,26 +56,22 @@ class Infobox
      * @param null $page
      */
     public static function getInfobox($page = null){
+
         self::$parameters['titles'] = $page;
         $url = self::buildApiURL(self::$protocol, self::$locale, self::$endpoint, self::$parameters);
-        $client = new GuzzleClient();
-        $response = $client->get($url);
+        $response = self::doRequest($url);
 
 
         if (self::isSuccessful($response->getStatusCode()) && self::isJson($response->getHeader('content-type'), self::$expectedReponseHeader)) {
 
             if (!empty($response->json()['query']) && !empty($response->json()['query']['pages'])) {
                 $revision = array_pop($response->json()['query']['pages']);
-                preg_match("/\\{\\{Infobox.*?\\}\\}/s", $revision['revisions'][0]['*'], $infobox);
+
+                $infobox = self::parseInfobox($revision['revisions'][0]['*']);
+
                 if (count($infobox) === 1) {
                     $lines = explode("\n", $infobox[0]);
-                    $returnArray = [];
-                    foreach ($lines as $line) {
-                        if (strpos($line, '=')) {
-                            list($key, $value) = explode('=', $line);
-                            $returnArray[trim(str_replace('|', '', $key))] = trim($value);
-                        }
-                    }
+                    $returnArray = self::convertInfoBoxToKeyValuePairs($lines);
                     echo json_encode($returnArray);
                 } else {
                     if (count($infobox) > 1) {
@@ -91,6 +87,43 @@ class Infobox
             \Log::warning('request not in json format');
         }
 
+    }
+
+    /**
+     * @param $revision
+     * @return mixed
+     */
+    private static function parseInfobox($lastRevision)
+    {
+        preg_match("/\\{\\{Infobox.*?\\}\\}/s", $lastRevision, $infobox);
+        return $infobox;
+    }
+
+    /**
+     * @param $lines
+     * @return mixed
+     */
+    private static function convertInfoBoxToKeyValuePairs($lines)
+    {
+        $returnArray = [];
+        foreach ($lines as $line) {
+            if (strpos($line, '=')) {
+                list($key, $value) = explode('=', $line);
+                $returnArray[trim(str_replace('|', '', $key))] = trim($value);
+            }
+        }
+        return $returnArray;
+    }
+
+    /**
+     * @param $url
+     * @return \GuzzleHttp\Message\FutureResponse|\GuzzleHttp\Message\ResponseInterface|\GuzzleHttp\Ring\Future\FutureInterface|mixed|null
+     */
+    private static function doRequest($url)
+    {
+        $client = new GuzzleClient();
+        $response = $client->get($url);
+        return $response;
     }
 
 
